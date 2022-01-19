@@ -6,6 +6,7 @@ To start, go to developer.spotify.com/dashboard and create an app
 Next edit settings and add your localhost to the list of verified redirect URI's
 
 Finally, copy and paste your client_id and client_secret into the appropriate variables or text fields
+^(SEE LINE 107 OF SCRIPT.JS IF CONFUSED)^
 
 If everything was done properly your top 10 songs should appear along with artist names and album covers
 
