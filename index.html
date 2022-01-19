@@ -1,0 +1,27 @@
+<html>
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="onLoad()">
+
+  <div id="container">
+    <div id="get-credentials">
+      <center> <h1>Enter Credentials</h1> </center>
+      <center><label for="clientId" class="form-label">Client ID</label></center>
+      <center><input type="text" class="form-control" id="clientId" placeholder=""></center>
+      <center><label for="clientSecret" class="form-label">Client Secret</label></center>
+      <center><input type="text" class="form-control" id="clientSecret" placeholder=""></center></br></br>
+      <center><input type="button" class="button" onclick="requestAuthorization()" value="Request Authorization"></center></br>
+    </div>
+
+    <div id="functionality">
+      <center> <h1>Click Below to Discover Your Top Tracks of the Last Month</h1> </center>
+      <center> <input type="button" class="button" onclick="findTopTracks()" value="Find Top Tracks!"> </center>
+      <table id="table">
+        </table>
+    </div>
+  </div>
+</body>
+</html>

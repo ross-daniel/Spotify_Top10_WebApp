@@ -1,0 +1,48 @@
+/*
+--Green: #1DB954
+--Dark Green: #199E48
+--Black: #191414
+--Gray:  #565656
+*/
+body {
+  color: white;
+  background-color: #191414;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+th, td {
+  border: none;
+  padding: 5%;
+}
+table{
+  border: 0px;
+  text-align: center;
+  align-self: stretch;
+}
+#container{
+  padding: 6%;
+  width: 62%;
+  margin: auto;
+  background-color: #565656;
+  border-radius: 25px;
+}
+#get-credentials {
+  display: block;
+}
+#functionality {
+  display: none;
+}
+.button {
+  padding: 24px;
+  color: white;
+  background-color: #1DB954;
+  border-radius: 25px;
+  border: 0px;
+  opacity: 1;
+}
+.button:hover{
+  color: white;
+  background-color: #199E48;
+  padding: 26px;
+  opacity: .8;
+  transition: width .2s, height .2s, background-color .4s, opacity .4s;
+}
